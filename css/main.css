@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import body {
+  font-family: 'Darker Grotesque', Helvetica, Arial, sans-serif;
+}
 
 /*
 	Stellar by HTML5 UP
@@ -32,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	.image img {
-    max-width: 100%;
+    width:1920px;
     height: auto;
 }
 	line-height: 1;
@@ -3789,3 +3791,4 @@ input, select, textarea {
 			}
 
 		}
+
