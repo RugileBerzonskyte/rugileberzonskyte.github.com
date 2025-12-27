@@ -3831,6 +3831,98 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+/* =========================
+   Fonas visam puslapiui
+========================= */
+body {
+    /* Tavo nuotrauka kaip fonas */
+    background-image: url("../images/oda2.jpg");
+    background-size: cover;       /* Užpildo ekraną */
+    background-position: center;  /* Centruoja nuotrauką */
+    background-repeat: no-repeat; /* Nepakartoja */
+    position: relative;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+/* Overlay (užtamsinimas) */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4); /* juodas 40% užtamsinimas */
+    z-index: -1; /* kad būtų už viso turinio */
+}
+
+/* =========================
+   Image Buttons (Projects / About Me)
+========================= */
+.image-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* tarpai tarp mygtukų */
+    flex-wrap: wrap; /* jei ekranas per siauras, persikelia į kitą eilutę */
+    margin: 2em 0;
+}
+
+.img-btn {
+    display: flex;
+    flex-direction: column; /* nuotrauka viršuje, tekstas apačioje */
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.img-btn img {
+    width: 180px;  /* dydis pagal tavo norą */
+    height: 120px; 
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+/* Hover efektas mygtukui */
+.img-btn:hover img {
+    transform: scale(1.05);
+}
+
+.img-btn span {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* =========================
+   Footer social icons
+========================= */
+.social-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centrojimas horizontaliai */
+    gap: 30px; /* vienodi tarpai tarp ikonų */
+}
+
+.social-buttons li {
+    margin: 0;
+}
+
+.social-buttons a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-buttons a:hover {
+    color: #e37682; /* galima pakeisti hover spalvą */
+}
+
 
 
 
