@@ -3824,6 +3824,14 @@ input, select, textarea {
     background-color: rgba(255,255,255,0.15);
     border-color: #ffffff;
 }
+/* Pagrindinis puslapio fonas */
+body {
+    background-image: url("images/oda2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
 
