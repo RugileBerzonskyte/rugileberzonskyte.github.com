@@ -1,262 +1,153 @@
-<!--
-<section>
-Nusako, kad tai HTML5 kodas.
-Nurodo, kad kalba - lietuvių.
-<HEAD> reiškia KAIP puslapis veiks.
-</section>
--->
-<!DOCTYPE HTML> 
+<!DOCTYPE HTML>
 <html lang="lt">
 <head>
-<!--
-<section>
-<META> leidžia naudoti lietuviškas raides.
-	Pavadinimas skirtuke.
-	VIEWPOINT nurodo, kad yra pritaikyta tokiems devices, kaip telefonas, planšetė.
-	<Link rel...> parodo CSS script nurodytą dizainą.
-	Nurodo font'ą, kuris veikia, jis įtalpintas aplankuose.
-</section>
--->
     <meta charset="UTF-8">
     <title>Rugilė Beržonskytė – Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<!--
-<section>
-Leidžia naudoti soc. tinklų ikonas apačioje.
-</section>
--->
-<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- Pagrindinis CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Noscript CSS -->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Font Awesome social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-	<!--
-<section>
-Website animacija, kuri dingsta užkrovus.
-</section>
--->
+
 <body class="is-preload">
 
-		<!-- Wrapper
-	VISAS puslapis viduje/ TURINYS
-	NETRINTI
-	-->
-			<div id="wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-				<!-- Header
-				Pirmas skyrius: vardas, portfolio, instagram.
-				-->
-					<header id="header" class="alt">
-						<h1>Rugilė Beržonskytė</h1>
-						<p>portfolio<br>
-						<a href="https://instagram.com/rugiais_berzai">@rugiais_berzai</a></p>
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1>Rugilė Beržonskytė</h1>
+            <p>portfolio<br>
+            <a href="https://instagram.com/rugiais_berzai">@rugiais_berzai</a></p>
+        </header>
 
-					</header>
+        <!-- Navigation -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#intro" class="active">Apie</a></li>
+                <li><a href="#first">Patirtys</a></li>
+                <li><a href="#second">Darbai</a></li>
+                <li><a href="#cta">Kontaktai</a></li>
+            </ul>
+        </nav>
 
-				<!-- Nav 
-				Navigacija.Iš puslapio į skyrius.
-				-->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Apie</a></li>
-							<li><a href="#first">Patirtys</a></li>
-							<li><a href="#second">Darbai</a></li>
-							<li><a href="#cta">Kontaktai</a></li>
-						</ul>
-					</nav>
+        <!-- Main -->
+        <div id="main">
 
-				<!-- Main
-				VISI SKYRIAI
-				"Apie, patirtys, darbai, kontaktai
-				-->
-					<div id="main">
+            <!-- Introduction Section -->
+            <section id="intro" class="main">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Apie</h2>
+                        </header>
+                        <p>Esu Rugilė, studijuoju VDA grafikos meną. Šiuo metu tobulinu save giliaspaudės technikoje, vienas svarbiausių
+                        kūrybos elementų man - eksperimentavimas. Mėgstu ieškoti kitokių sprendimų tiek tradicinėse technikose,
+                        tiek nukrypti labai tolimais keliais į neapibrėžtumus. Šiuo metu be gyliaspaudės, bandau save instaliacijų
+                        kurime, naujų medžiagų paieškoje ir skirtingų disciplinų jungtyse.</p>
+                    </div>
+                </div>
+            </section>
 
-						<!-- Introduction
-						1 skyrius: APIE
-						-->
-							<section id="intro" class="main" 
-			
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Apie</h2>
-										</header>
-									</div>
-										<p>Esu Rugilė, studijuoju VDA grafikos meną. Šiuo metu tobulinu save giliaspaudės technikoje, vienas svarbiausių<br> kūrybos elementų man - eksperimentavimas.
-										Mėgstu ieškoti kitokių sprendimų tiek tradicinėse technikose, tiek nukrypti labai tolimais keliais į neapibrėžtumus.<br>
-										Šiuo metu be gyliaspaudės, bandau save instaliacijų kurime, naujų medžiagų paieškoje ir skirtingų disciplinų jungtyse.</p>
-										
-										
-										
-						
-							</section>
+            <!-- First Section: Patirtys -->
+            <section id="first" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>PATIRTYS</h2>
+                        </header>
+                        <ul class="features">
+                            <li>
+                                <p>Vilniaus grafikos meno centras<br>(Galerija „Kairė–dešinė“) - paroda "Jauna nauja grafika. Knygos metafizika"</p>
+                                <p>Klaipėdos kultūros komunikacijų centras, iliustracijų paroda "Vanduo, šviesa ir (p)okštas"</p>
+                            </li>
+                            <li>
+                                <p>VDA galerija "5 malūnai"</p>
+                                <p>Iliustracijos BIP Bolonijoje</p>
+                            </li>
+                            <li>
+                                <p>Menininko knygos dirbtuvės su Timothy Frerichs (USA)</p>
+                                <p>Knygos dirbtuvės su dizainere Sarah Boris (UK/FR)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-						<!-- First Section
-										2,PATIRTYS
-										-->
-							<section id="first" class="main special">
-								<div class="spotlight">
-									<div class="content">
-								<header class="major">
-									<h2>PATIRTYS</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<p>Vilniaus grafikos meno centras<br>
-										(Galerija „Kairė–dešinė“) - paroda "Jauna nauja grafika. Knygos metafizika"</p>
-										<p>Klaipėdos kultūros komunikacijų centras, iliustracijų paroda "Vanduo, šviesa ir (p)okštas"</p>
-									</li>
-									<li>
-										<p>VDA galerija "5 malūnai"</p>
-										<p>Iliustracijos BIP Bolonijoje</p>
-									</li>
-									<li>
-										<p>Menininko knygos dirbtuvės su Timothy Frerichs (USA)</p>
-										<p>Knygos dirbtuvės su dizainere Sarah Boris (UK/FR)</p>
-									</li>
-								</ul>
-										<section id="buttons" class="spotlight">
-    <div class="image-buttons">
-        <a href="projects.html" class="img-btn">
-            <img src="images/oda7.jpg" alt="Projektai">
-            <span>PROJEKTAI</span>
-        </a>
-        <a href="about.html" class="img-btn">
-            <img src="images/about.jpg" alt="Apie mane">
-            <span>APIE MANE</span>
-        </a>
-    </div>
-</section>
+            <!-- Second Section: Darbai / Image Buttons -->
+            <section id="second" class="main special">
+                <header class="major">
+                    <h2>Darbai</h2>
+                </header>
+                <div class="image-buttons">
+                    <a href="projects.html" class="img-btn">
+                        <img src="images/oda7.jpg" alt="Projektai">
+                        <span>PROJEKTAI</span>
+                    </a>
+                    <a href="about.html" class="img-btn">
+                        <img src="images/about.jpg" alt="Apie mane">
+                        <span>APIE MANE</span>
+                    </a>
+                </div>
+            </section>
 
+            <!-- CTA Section -->
+            <section id="cta" class="main special">
+                <header class="major">
+                    <h2>Kontaktai</h2>
+                </header>
+            </section>
 
-    <!-- Nauja sekcija su image buttons -->
-    <section id="buttons" class="spotlight">
-        <div class="image-buttons">
-          <a href="projects.html" class="img-btn">
-              <img src="images/oda7.jpg" alt="oda 7">
-              <span>PROJEKTAI</span>
-          </a>
-          <a href="about.html" class="img-btn">
-              <img src="images/about.jpg" alt="About Me">
-              <span>APIE MANE</span>
-          </a>
-        </div>
-    </section>
+        </div> <!-- /#main -->
 
+        <!-- Footer -->
+        <footer id="footer">
+            <section id="social-links" class="main special">
+                <ul class="social-buttons">
+                    <li>
+                        <a href="https://www.instagram.com/rugiais_berzai" target="_blank" rel="noopener" class="social-btn">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/rugile.berzonskyte.3?locale=lt_LT" target="_blank" rel="noopener" class="social-btn">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:berzonskyterugile@email.com" class="social-btn">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
 
+    </div> <!-- /#wrapper -->
 
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-										<li><a href="generic.html" class="button primary">Projektai</a></li>
-										<li><a href="generic.html" class="button">Iliustracija</a></li>
-										<li><a href="generic.html" class="button primary">Knygos</a></li>
-									</ul>
-								</footer>						
-							</section>
-
-						<!-- Get Started -->
-							<section id="cta" class="main special">
-								<header class="major">
-						</header>
-							</section>
-
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section id="social-links" class="main special">
-    <ul class="social-buttons">
-		<!--
-<section>
-  Linkas į instagram 
-</section>
--->
-        <li>
-            <a href="https://www.instagram.com/rugiais_berzai"
-               target="_blank"
-               rel="noopener"
-               class="social-btn">
-                <i class="fab fa-instagram"></i>
-                <span>Instagram</span>
-            </a>
-        </li>
-<!--
-<section>
-Linkas į Facebook
-</section>
--->
-        <li>
-            <a href="https://www.facebook.com/rugile.berzonskyte.3?locale=lt_LT"
-               target="_blank"
-               rel="noopener"
-               class="social-btn">
-                <i class="fab fa-facebook-f"></i>
-                <span>Facebook</span>
-            </a>
-        </li>
-<!--
-<section>
-  Linkas į gmail
-</section>
--->
-        <li>
-            <a href="mailto:berzonskyterugile@email.com" class="social-btn">
-                <i class="fas fa-envelope"></i>
-                <span>Email</span>
-            </a>
-        </li>
-</section>
-
-						</section>
-					</footer>
-
-			</div>
-
-		<!-- Scripts
-		NUSTATO SCROLL, EFEKTUS IR PAN
-		NEISTRINTI
-		-->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
